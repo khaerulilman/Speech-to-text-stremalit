@@ -1,15 +1,12 @@
 import streamlit as st
 import torch
 from transformers import AutoModelForSpeechSeq2Seq, AutoProcessor, pipeline
-import sounddevice as sd
-import scipy.io.wavfile as wavfile
 import numpy as np
 import tempfile
 import os
 from audio_recorder_streamlit import audio_recorder
 import time
 import librosa
-import soundfile as sf
 
 # Konfigurasi halaman
 st.set_page_config(
@@ -388,6 +385,8 @@ if st.session_state.show_result and st.session_state.result_text:
         <h2 style='color: white; text-align: center; margin: 15px 0;'>"{actual}"</h2>
     </div>
     """, unsafe_allow_html=True)
+    
+   
 
 
 # Footer
