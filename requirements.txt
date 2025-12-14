@@ -1,8 +1,6 @@
 streamlit
 torch
 transformers
-sounddevice
-scipy
 numpy
 audio-recorder-streamlit
 accelerate
