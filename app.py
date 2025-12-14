@@ -97,7 +97,7 @@ st.markdown("""
 # Judul aplikasi
 st.markdown("""
 <div class="title-box">
-    <h1>🎤 Belajar Membaca dengan Suara 📚</h1>
+    <h1 style="color: black">🎤 Belajar Membaca dengan Suara 📚</h1>
     <p style="font-size: 18px; color: #666;">Yuk, belajar membaca dengan menyebutkan kalimat!</p>
 </div>
 """, unsafe_allow_html=True)
@@ -191,7 +191,7 @@ with col1:
     st.markdown("""
     <div class="instruction-box">
         <h3 style="color: #667eea;">🎙️ Rekam Suaramu</h3>
-        <p>Klik tombol merah untuk mulai/berhenti rekam!</p>
+        <p style="color: black">Klik tombol merah untuk mulai/berhenti rekam!</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -235,7 +235,7 @@ with col2:
     st.markdown("""
     <div class="instruction-box">
         <h3 style="color: #667eea;">📁 Upload File Audio</h3>
-        <p>Atau upload file audio WAV kamu!</p>
+        <p style="color: black">Atau upload file audio WAV kamu!</p>
     </div>
     """, unsafe_allow_html=True)
     
@@ -397,3 +397,4 @@ st.markdown("""
     <p>🎈 Buat oleh AI untuk belajar yang menyenangkan</p>
 </div>
 """, unsafe_allow_html=True)
+
